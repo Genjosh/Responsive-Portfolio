@@ -224,7 +224,11 @@ input[type=submit] {
   width: 46%;
   padding-left: 10%;
   padding-right: 105;
- 
+  z-index: 30;
+  float: right;
+}
+.card-img-top{
+  float: right;
 }
 
 .card-body1{
@@ -241,15 +245,21 @@ input[type=submit] {
   text-decoration-color: black;
 }
 
-#first{
+.first{
   float: left;
   padding-right: 10%;
 }
 
-#second{
+.second{
   float: right;
   padding-left: 10%;
 }
+
+/* .row{
+  float: right;
+} */
+
+
 
 
 
