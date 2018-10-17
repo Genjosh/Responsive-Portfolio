@@ -54,7 +54,7 @@
             <textarea id="message" name="message" required="required"></textarea>
           </li>
         </ul>
-        <input type="submit">
+        <input id="click-button"type="submit">
       </form>
 
     </section>
@@ -66,6 +66,18 @@
       Copyright &copy; 
     </div>
   </footer>
+
+  <script type="text/javascript">
+
+    
+    $("#click-button").on("click", function() {
+      document.preventDefault();
+      alert("You're  information has been sent!! I will contact you shortly, thank you for your time.");
+    })
+    
+    
+    </script>
+    
 </body>
 
 </html>
